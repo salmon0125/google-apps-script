@@ -25,7 +25,7 @@ function myFunction2() {
         let a = value.split('/')[0].trim();
         let b = value.split('/')[1].trim();
         let ap = a.replace("'","");
-        comm = "[" + a + ":[" + b + "," + ap + "2]"; 
+        comm = "[" + a + ":[" + b + "," + ap + "2]]"; 
       }else{
         comm = '[' +value+']';
       }
