@@ -15,7 +15,7 @@ function myFunction2() {
           let a = inside.split('/')[0].trim();
           let b = inside.split('/')[1].trim();
           let ap = a.replace("'","");
-          comm = "[" + setup + " " +  a + ":[" + b + "," + ap + "2]"; 
+          comm = "[" + setup + " " +  a + ":[" + b + "," + ap + "2]]"; 
         }else{
           let setup = value.substring(0,value.indexOf(':')+1).trim();
           let inside = value.substring(value.indexOf(':')+1).trim();
